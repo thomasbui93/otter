@@ -1,10 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "target": "es2019",
     "noImplicitAny": true,
-    "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
     "baseUrl": "src",
@@ -16,7 +12,6 @@
     },
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "lib": [ "ES2020.Promise" ]
   },
   "include": [
     "src/**/*.ts"
